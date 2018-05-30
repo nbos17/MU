@@ -50,3 +50,7 @@ p {
 	font-size: 50px;
 	font-weight: bolder;
 }
+#pMain {
+	font-size: 20px;
+	margin: 0;
+}
