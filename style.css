@@ -42,6 +42,7 @@ p {
 .main-pics {
 	background-image: url("apple.jpg");
 	height: 500px;
+	margin-top: 103px;
 }
 #message {
 	float: left;
@@ -53,4 +54,16 @@ p {
 #pMain {
 	font-size: 20px;
 	margin: 0;
+}
+.card {
+	margin-bottom: 40px;
+}
+#navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 100;
+}
+#header {
+	background-color: white;
 }
