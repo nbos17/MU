@@ -57,6 +57,7 @@ p {
 }
 .card {
 	margin-bottom: 40px;
+	margin-top: 20px;
 }
 #navbar {
 	position: fixed;
@@ -66,4 +67,16 @@ p {
 }
 #header {
 	background-color: white;
+}
+.air {
+	height: 70%;
+	width: 70%;
+	margin-left: 30px;
+}
+#mbp {
+	height: 85%;
+	width: 85%;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 31px;
 }
