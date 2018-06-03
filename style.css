@@ -40,8 +40,9 @@ p {
 
 }
 .main-pics {
-	background-color: grey;
-	height: 500px;
+	background-image: url("highsierra.jpg");
+	background-repeat: no-repeat;
+	height: 600px;
 	margin-top: 103px;
 }
 #message {
