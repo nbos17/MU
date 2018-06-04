@@ -33,6 +33,7 @@ h1 {
 #second-row {
 	background-color: black;
 	color: white;
+	max-height: 55px;
 }
 p {
 	display: inline-block;
@@ -40,7 +41,7 @@ p {
 
 }
 .main-pics {
-	background-image: url("highsierra.jpg");
+	background-color: grey;
 	background-repeat: no-repeat;
 	height: 600px;
 	margin-top: 103px;
@@ -81,4 +82,18 @@ p {
 	margin-left: 40px;
 	margin-top: 10px;
 	margin-bottom: 31px;
+}
+.menu-content {
+	display: none;
+	color: white;
+	width: 150px;
+
+}
+.menu {
+	background-color: black;
+	color: white;
+	border: none;
+}
+span {
+	margin-bottom: 20px;
 }

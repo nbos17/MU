@@ -33,7 +33,13 @@
 		</div>
 		<div class="row" id="second-row">
 			<div class="container">
-					<p>Laptops </p>
+					<button class="menu"><span>Laptops</span>
+						<div class="menu-content">
+							<span>Macbook Air</span>
+							<span>Macbook Pro</span>
+							<span>Macbook Pro Retina</span>
+						</div>
+					</button>
 					<p>iMacs </p>
 					<p>iPads </p>
 					<p>Other</p>
@@ -137,6 +143,13 @@
 		</div>
 	</div>
 
+<script type="text/javascript">
+	$('.menu').hover(function() {
+		$('.menu-content').css('display', 'block');
+	}, function() {
+		$('.menu-content').css('display', 'none');	
+	});
 
+</script>
 </body>
 </html>
