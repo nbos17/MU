@@ -33,16 +33,41 @@
 		</div>
 		<div class="row" id="second-row">
 			<div class="container">
-					<button class="menu"><span>Laptops</span>
-						<div class="menu-content">
-							<span>Macbook Air</span>
-							<span>Macbook Pro</span>
-							<span>Macbook Pro Retina</span>
-						</div>
-					</button>
-					<p>iMacs </p>
+				<nav>
+					<ul>
+						<li id="laptopMenu">Laptops<ul class="laptopDropdown">
+							<li class="liDropdown">Macbook Air</li>
+							<li class="liDropdown">Macbook Pro</li>
+							<li class="liDropdown">Macbooks</li>
+						</ul></li>
+						<li id="imacMenu">iMacs<ul class="imacDropdown">
+							<li class="liDropdown">20" iMac</li>
+							<li class="liDropdown">21" iMac</li>
+							<li class="liDropdown">27" iMac</li>							
+						</ul></li>
+						<li id="ipadMenu">iPads<ul class="ipadDropdown"> 
+							<li class="liDropdown">iPad Air</li>
+							<li class="liDropdown">iPad Pro</li>
+						</ul></li>
+						<li id="otherMenu">Other<ul class="otherDropdown">
+							<li class="liDropdown">Cinema Displays</li>
+							<li class="liDropdown">Power Adapaters</li>	
+							<li class="liDropdown">SSD's</li>						
+						</ul></li>
+					</ul>
+				</nav>
+					<!-- <p>Laptops<ul>
+						<li><a href="#">Macbook Air</a></li>
+						<li><a href="#">Macbook Pro</a></li>
+						<li><a href="#">Macbooks</a></li>
+					</ul></p>
+					<p>iMacs<ul>
+						<li><a href="#">Macbook Air</a></li>
+						<li><a href="#">Macbook Pro</a></li>
+						<li><a href="#">Macbooks</a></li>
+					</ul></p>
 					<p>iPads </p>
-					<p>Other</p>
+					<p>Other</p> -->
 			</div>
 		</div>
 	</div>
@@ -144,12 +169,29 @@
 	</div>
 
 <script type="text/javascript">
-	$('.menu').hover(function() {
-		$('.menu-content').css('display', 'block');
+	$('#laptopMenu').hover(function() {
+		$('.laptopDropdown').css('display', 'block');
 	}, function() {
-		$('.menu-content').css('display', 'none');	
+		$('.laptopDropdown').css('display', 'none');	
 	});
 
+	$('#imacMenu').hover(function() {
+			$('.imacDropdown').css('display', 'block');
+		}, function() {
+			$('.imacDropdown').css('display', 'none');	
+	});
+
+	$('#ipadMenu').hover(function() {
+			$('.ipadDropdown').css('display', 'block');
+		}, function() {
+			$('.ipadDropdown').css('display', 'none');	
+	});
+
+	$('#otherMenu').hover(function() {
+			$('.otherDropdown').css('display', 'block');
+		}, function() {
+			$('.otherDropdown').css('display', 'none');	
+	});
 </script>
 </body>
 </html>

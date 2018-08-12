@@ -33,15 +33,18 @@ h1 {
 #second-row {
 	background-color: black;
 	color: white;
-	max-height: 55px;
+
 }
 p {
 	display: inline-block;
 	margin: 15px 30px 15px 15px;
 
 }
+ul {
+	display: inline;
+}
 .main-pics {
-	background-color: grey;
+	background-color: beige;
 	background-repeat: no-repeat;
 	height: 600px;
 	margin-top: 103px;
@@ -96,4 +99,51 @@ p {
 }
 span {
 	margin-bottom: 20px;
+}
+nav ul {
+	display: inline;
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	padding: 15px;
+	margin-right: 40px;
+}
+.laptopDropdown {
+	display: block;
+	list-style: none;
+	margin: 0;
+	position: relative;
+	right: 40px;
+	display: none;
+}
+.imacDropdown {
+	display: block;
+	list-style: none;
+	margin: 0;
+	position: relative;
+	right: 40px;
+	display: none;
+}
+.ipadDropdown {
+	display: block;
+	list-style: none;
+	margin: 0;
+	position: relative;
+	right: 40px;
+	display: none;
+}
+.otherDropdown {
+	display: block;
+	list-style: none;
+	margin: 0;
+	position: relative;
+	right: 40px;
+	display: none;
+}
+.liDropdown {
+	display: block;
+	padding: 0;
+	float: none;
+	margin-top: 20px;
 }
