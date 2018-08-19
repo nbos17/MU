@@ -110,18 +110,17 @@ nav ul {
 nav ul li{
 	float: left;
 	padding: 15px;
-	margin-right: 40px;
+	/* margin-right: 40px; */
 }
 .laptopDropdown {
-	display: block;
 	list-style: none;
 	margin: 0;
 	position: relative;
 	right: 40px;
+	overflow: visible;
 	display: none;
 }
 .imacDropdown {
-	display: block;
 	list-style: none;
 	margin: 0;
 	position: relative;
@@ -129,7 +128,6 @@ nav ul li{
 	display: none;
 }
 .ipadDropdown {
-	display: block;
 	list-style: none;
 	margin: 0;
 	position: relative;
@@ -137,7 +135,6 @@ nav ul li{
 	display: none;
 }
 .otherDropdown {
-	display: block;
 	list-style: none;
 	margin: 0;
 	position: relative;
@@ -149,6 +146,7 @@ nav ul li{
 	padding: 0;
 	float: none;
 	margin-top: 20px;
+	margin-right: 0px;
 }
 button {
 	margin: 40px 0px 10px 70px;
@@ -178,5 +176,23 @@ footer {
 	width: 100%;
 }
 #submit {
+	margin-top: 30px;
+}
+#laptopMenu {
+	width: 165px;
+}
+#imacMenu {
+	width: 165px;
+}
+#ipadMenu {
+	width: 165px;
+}
+#bestSellers {
+	margin-bottom: 50px;
+}
+.d-block {
+	height: 800px;
+}
+#carouselContent {
 	margin-top: 30px;
 }
