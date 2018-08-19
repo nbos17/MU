@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MacUnited</title>
+
+	<!-- Favicon -->
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+	crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/51fe8593c0.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+            <div class="row" id="header">
+                <div class="container">
+                    <img id="main" src="logo.jpg">
+                    <h3 id="message"><a href="index.html">Buy Refurbished Macs</a></h3>
+                    <h3><a href="shop.html">Shop</a></h3>
+                    <h3>Warranty</h3>
+                    <h3><a href="https://www.macfulfillmentservices.com">Repair</a></h3>
+                    <h3><a href="contact.html">Contact</a></h3>
+                </div>
+            </div>
+            <div class="row" id="second-row">
+                <div class="container">
+                    <nav>
+                        <ul>
+                            <li id="laptopMenu">Laptops<ul class="laptopDropdown">
+                                <li class="liDropdown">Macbook Air</li>
+                                <li class="liDropdown">Macbook Pro</li>
+                                <li class="liDropdown">Macbooks</li>
+                            </ul></li>
+                            <li id="imacMenu">iMacs<ul class="imacDropdown">
+                                <li class="liDropdown">20" iMac</li>
+                                <li class="liDropdown">21" iMac</li>
+                                <li class="liDropdown">27" iMac</li>							
+                            </ul></li>
+                            <li id="ipadMenu">iPads<ul class="ipadDropdown"> 
+                                <li class="liDropdown">iPad Air</li>
+                                <li class="liDropdown">iPad Pro</li>
+                            </ul></li>
+                            <li id="otherMenu">Other<ul class="otherDropdown">
+                                <li class="liDropdown">Cinema Displays</li>
+                                <li class="liDropdown">Power Adapaters</li>	
+                                <li class="liDropdown">SSD's</li>						
+                            </ul></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row" id="contact">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h1>Contact Us</h1>
+                </div>
+                
+            </div>
+
+            <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Name</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="myname@something.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <br><br>
+                    <input type="submit" value="Submit">
+            </form>
+        </div>
+
+
+        <footer id="contactFooter">
+            <p>Copyright Nathan Bos 2018</p>
+        </footer>
+
+    <script type="text/javascript">
+        $('#laptopMenu').hover(function() {
+            $('.laptopDropdown').css('display', 'block');
+        }, function() {
+            $('.laptopDropdown').css('display', 'none');	
+        });
+
+        $('#imacMenu').hover(function() {
+                $('.imacDropdown').css('display', 'block');
+            }, function() {
+                $('.imacDropdown').css('display', 'none');	
+        });
+
+        $('#ipadMenu').hover(function() {
+                $('.ipadDropdown').css('display', 'block');
+            }, function() {
+                $('.ipadDropdown').css('display', 'none');	
+        });
+
+        $('#otherMenu').hover(function() {
+                $('.otherDropdown').css('display', 'block');
+            }, function() {
+                $('.otherDropdown').css('display', 'none');	
+        });
+    </script>
+
+</body>
