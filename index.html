@@ -27,7 +27,7 @@
 				<h3 id="message"><a href="index.html">Buy Refurbished Macs</a></h3>
 				<h3><a href="shop.html">Shop</a></h3>
 				<h3>Warranty</h3>
-				<h3><a href="https://www.macfulfillmentservices.com">Repair</a></h3>
+				<!-- <h3><a href="https://www.macfulfillmentservices.com">Repair</a></h3> -->
 				<h3><a href="contact.html">Contact</a></h3>
 			</div>
 		</div>
@@ -112,62 +112,41 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-4">
-				<div class="card">
-					<div class="card-body">
-						<img class="air" src="images/mba.jpg">
-						<button >Buy Macbook Air</button>
-					</div>
+			<div class="col-4">
+				<div class="imageHolder" id='macbooks'>
+					<h1 class="imageHeader">Macbooks</h1>
+				</div>
+			</div>
+
+			<div class="col-4">
+				<div class="imageHolder" id='macbookPro'>
+					<h1 class='imageHeader'>Macbook Pro</h1>
 				</div>
 			</div>
 
 			<div class="col-md-4">
-				<div class="card">
-					<div class="card-body">
-						<img class="air" src="images/mba.jpg">
-						<button>Buy Macbook Air</button>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4">
-				<div class="card">
-					<div class="card-body">
-						<img class="air" src="images/mba.jpg">
-						<button>Buy Macbook Air</button>
-					</div>
+				<div class='imageHolder' id='macbookAir'>
+					<h1 class='imageHeader'>Macbook Air</h1>
 				</div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-md-4">
-				<div class="card">
-					<div class="card-header"> 15" MacBook Pro Retina 2.8i7</div>
-					<div class="card-body">
-						<img class="air" src="images/mbptouch.jpg">
-						<button>Buy Macbook Pro</button>
-					</div>
+				<div class="imageHolder" id='imac'>
+					<h1 class='imageHeader'>iMacs</h1>
 				</div>
 			</div>
 
 			<div class="col-md-4">
-				<div class="card">
-					<div class="card-header">13" Macbook Pro Retina 2.6i7</div>
-					<div class="card-body">
-						<img class="air" src="images/mbptouch.jpg">
-						<button>Buy Macbook Pro</button>
-					</div>
+				<div class='imageHolder' id='macpro'>
+					<h1 class='imageHeader'>Mac Pro</h1>
 				</div>
 			</div>
 
 			<div class="col-md-4">
-				<div class="card">
-					<div class="card-header">13" Macbook Pro 2.5i5</div>
-					<div class="card-body">
-						<img id="mbp" src="images/mbp.jpg">
-						<button>Buy Macbook Pro</button>
-					</div>
+				<div class='imageHolder' id='otherMac'>
+					<h1 class='imageHeader'>Accessories</h1>
 				</div>
 			</div>
 
@@ -175,7 +154,7 @@
 
 		<div class="row">
 			<div class="col-md-12">
-				<h1><a href='shop.html'>Shop Now</a></h1>
+				<h1 id='shopNow'><a href='shop.html'>Shop Now</a></h1>
 			</div>
 		</div>
 		<br><br>
@@ -210,6 +189,9 @@
 		}, function() {
 			$('.otherDropdown').css('display', 'none');	
 	});
+	$('.imageHolder').on('click', function() {
+		location.href='shop.html';
+	})
 
 </script>
 </body>
