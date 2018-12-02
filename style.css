@@ -93,8 +93,8 @@ ul {
 	margin-right: auto;
 }
 #mbp {
-	height: 85%;
-	width: 85%;
+	height: 70%;
+	width: 70%;
 	margin-left: 40px;
 	margin-top: 10px;
 	margin-bottom: 31px;
@@ -117,28 +117,58 @@ ul {
 	margin-bottom: 20px;
 }
 #macbooks {
-	background-image: url('images/white.jpg');
+	/*background-image: url('images/white.jpg');*/
+	background-color: black;
 	background-size: cover;
+}
+#macbooks:hover {
+	background-color: red;
+	opacity: .8;
 }
 #macbookPro {
-	background-image: url('images/macbookpro.jpg');
+	/*background-image: url('images/macbookpro.jpg');*/
+	background-color: grey;
 	background-size: cover;	
 }
+#macbookPro:hover {
+	background-color: red;
+	opacity: .8;
+}
 #macbookAir {
-	background-image: url('images/air.jpg');
+	/*background-image: url('images/air.jpg');*/
+	background-color: blue;
 	background-size: cover;
+}
+#macbookAir:hover {
+	background-color: red;
+	opacity: .8;
 }
 #imac {
-	background-image: url('images/imacpro.jpg');
+	/*background-image: url('images/imacpro.jpg');*/
+	background-color: lightgrey;
 	background-size: cover;
+}
+#imac:hover {
+	background-color: red;
+	opacity: .8;
 }
 #macpro {
-	background-image: url('images/mac_pro.jpeg');
+	/*background-image: url('images/mac_pro.jpeg');*/
+	background-color: lightblue;
 	background-size: cover;
 }
+#macpro:hover {
+	background-color: red;
+	opacity: .8;
+}
 #otherMac {
-	background-image: url('images/highsierra.jpg');
+	/*background-image: url('images/highsierra.jpg');*/
+	background-color: black;
 	background-size: cover;
+}
+#otherMac:hover {
+	background-color: red;
+	opacity: .8;
 }
 #shopNow {
 	text-align: center;
@@ -148,10 +178,6 @@ ul {
 	color: white;
 	font-weight: bolder; 
 	font-size: 3rem;
-}
-.imageHeadher:hover {
-	font-size: 3.5rem;
-	color: red;
 }
 span {
 	margin-bottom: 20px;
